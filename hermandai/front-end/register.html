@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=0.9" />
+  </head>
+  <body>
+    <form
+      method="post"
+      action="https://hermandai-development-backend.up.railway.app/auth/register/business/"
+    >
+      <!-- Name Input Field -->
+      <div class="name">
+        <input
+          type="text"
+          class="verify"
+          id="name"
+          name="name"
+          required
+          minlength="4"
+          maxlength="8"
+          size="10"
+          placeholder="Name"
+        />
+      </div>
+      <!-- Surname Input Field -->
+      <div class="surname">
+        <input
+          type="text"
+          class="verify"
+          id="surname"
+          name="surname"
+          required
+          minlength="4"
+          maxlength="8"
+          size="10"
+          placeholder="Surname"
+        />
+      </div>
+      <!-- Email Input Field -->
+      <div class="email">
+        <input
+          type="email"
+          class="verify"
+          id="email"
+          name="email"
+          required
+          placeholder="Email"
+        />
+      </div>
+      <!-- Business Name Input Field -->
+      <div class="business-name">
+        <input
+          type="text"
+          class="verify"
+          id="business_name"
+          name="business_name"
+          required
+          minlength="4"
+          maxlength="50"
+          size="10"
+          placeholder="Business Name"
+        />
+      </div>
+      <!-- Business Address Input Field -->
+      <div class="business-address">
+        <input
+          type="text"
+          class="verify"
+          id="business_address"
+          name="business_address"
+          required
+          minlength="4"
+          maxlength="100"
+          size="10"
+          placeholder="Business Address"
+        />
+      </div>
+      <!-- CEO Full Name Input Field -->
+      <div class="ceo-full-name">
+        <input
+          type="text"
+          class="verify"
+          id="ceo_full_name"
+          name="ceo_full_name"
+          required
+          minlength="4"
+          maxlength="50"
+          size="10"
+          placeholder="CEO Full Name"
+        />
+      </div>
+      <!-- Submit Button -->
+      <button type="submit">Register</button>
+    </form>
+  </body>
+</html>
